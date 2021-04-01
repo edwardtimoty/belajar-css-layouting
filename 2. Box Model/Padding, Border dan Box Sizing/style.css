@@ -1,0 +1,38 @@
+/*border dan padding*/
+
+.juboding {
+	text-align: center;
+}
+
+.boding{
+	width: 300px;
+	height: 300px;
+	background-color: coral;
+	margin: 20px auto;
+	padding: 50px;
+	border: 3px solid red;
+}
+
+/*Box Sizing*/
+
+.jubozing {
+	text-align: center;
+}
+
+.satu {
+	width: 600px;
+	box-sizing: border-box; 
+	background-color: royalblue;
+	margin: 10px auto;
+	padding: 10px;
+	border: 5px solid red;
+}
+
+.dua {
+	width: 600px;
+	box-sizing: border-box; 
+	background-color: lightgreen;
+	margin: 10px auto;
+	padding: 30px;
+	border: 10px dashed orange;
+}
