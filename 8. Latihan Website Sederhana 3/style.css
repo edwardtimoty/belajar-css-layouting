@@ -1,0 +1,133 @@
+/*CSS Reset Manual*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+	background-image: url(img/bush.png);
+}
+
+/*Style */
+
+.topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: black;
+	z-index: 99999;
+}
+
+.container {
+	width: 960px;
+	background-color: #fff;
+	margin: 80px auto;
+	position: relative;
+}
+
+.ribbon {
+	width: 200px;
+	height: 200px;
+	background-image: url(img/fb.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0px;
+	right: -100px;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 320px;
+	background-image: url(img/hero.jpg);
+	background-size: cover;
+	/*value pertama untuk mengatur horizontal
+	value kedua untuk mengatur vertikal*/
+	background-position: 0 -150px;
+	border-top: 5px solid red;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.content {
+	/*overflow = micro clearfix manual*/
+	overflow: auto;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main .penulis {
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.main .penulis a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.sidebar {
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+
+.sidebar h3 {
+	font-weight: bold;
+	color: #666;
+}
+
+.sidebar img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p {
+	font: 12px/18px arial;
+}
+
+.footer {
+	background-color: #333;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+}
