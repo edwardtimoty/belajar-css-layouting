@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 1000px;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.satu {
+	background-color: lightgreen;
+}
+
+.dua {
+	background-color: violet;
+	/*relative = untuk membuat elemen maju 1 dimensi / keluar dari flownya*/
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+
+	/*Fixed*/
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	top: 0;
+	left: 0;
+}
+
+.tiga {
+	background-color: gold;
+}
+
+.container {
+	width: 600px;
+	height: 650px;
+	border: 10px solid green;
+	position: relative;
+}
