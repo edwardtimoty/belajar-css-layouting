@@ -1,0 +1,60 @@
+/* Reset sederhana */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8em;
+}
+
+/* 
+vh = relatif terhadap tinggi dari viewport
+vw = relatif terhadap lebar dari viewport
+vmin = relatif terhadap dimensi terkecil dari sebuah viewport
+vmax = relatif terhadap dimensi terbesar dari sebuah viewport */
+header {
+    /* background-color: #333; */
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* height: 100vw; */
+    display: flex;
+}
+
+h1 {
+    /* 4rem = 4 * ukuran font rootnya yaitu 16px */
+    /* font-size: 4rem; */
+    /* font-size: 4vw; */
+    font-size: 4vmax;
+    /* 1.2em = 1.2 * 4rem (64px) 
+    em agar relative terhadap font size*/
+    line-height: 1.2em;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin: auto;
+}
+
+section {
+    margin: 30px auto;
+    width: 80%;
+}
+
+section .detail {
+    font-size: 1.4rem;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0.5em 0;
+    margin-bottom: 2em;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-indent: 1em;
+}
