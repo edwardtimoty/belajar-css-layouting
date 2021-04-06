@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid | Latihan Membuat Website Responsive</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <!-- Hero -->
+            <div class="hero">
+                <h2 class="heading">Drawde Merchandise Shop</h2>
+                <p class="sub-heading">Poster Dota 2</p>
+            </div>
+            <!-- Akhir Hero -->
+            <!-- Features -->
+            <div class="features feature-1">
+                <h4 class="price">IDR 200.000</h4>
+                <p>Poster Lanaya A4</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 150.000</h4>
+                <p>Poster Sven A3</p>
+            </div>
+        </header>
+        <!-- Akhir Header -->
+
+        <!-- Nav -->
+        <nav class="menu">
+            <!-- Hamburger Menu -->
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="brand">
+                <h1>Drawde Merch</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+        <!-- Akhir Nav -->
+
+        <!-- Services -->
+        <section class="services">
+            <!-- Div Service -->
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam, hic exercitationem est recusandae eaque?</p>
+            </div>
+
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Online Course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam, hic exercitationem est recusandae eaque?</p>
+            </div>
+
+            <div class="service">
+                <div class="icon"></div>
+                <h3>Merchandise</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam, hic exercitationem est recusandae eaque?</p>
+            </div>
+            <!-- Akhir Div Service -->
+        </section>
+        <!-- Akhir Services -->
+
+        <!-- Gallery -->
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/200x200" alt="">
+            <img src="https://source.unsplash.com/random/201x201" alt="">
+            <img src="https://source.unsplash.com/random/202x202" alt="">
+            <img src="https://source.unsplash.com/random/203x203" alt="">
+            <img src="https://source.unsplash.com/random/204x204" alt="">
+            <img src="https://source.unsplash.com/random/205x205" alt="">
+            <img src="https://source.unsplash.com/random/206x206" alt="">
+            <img src="https://source.unsplash.com/random/207x207" alt="">
+            <img src="https://source.unsplash.com/random/208x208" alt="">
+            <img src="https://source.unsplash.com/random/209x209" alt="">
+            <img src="https://source.unsplash.com/random/210x210" alt="">
+            <img src="https://source.unsplash.com/random/211x211" alt="">
+        </section>
+        <!-- Akhir Gallery -->
+
+    </div>
+    <!-- Akhir Container -->
+
+    <script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul')
+
+    menuToggle.addEventListener('click', function() {
+    nav.classList.toggle('slide');
+    });
+    </script>
+</body>
+</html>
